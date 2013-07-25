@@ -118,9 +118,7 @@ cmf_create:
     phpcr_odm: true
     map:
         'http://rdfs.org/sioc/ns#Post': 'Symfony\Cmf\Bundle\ContentBundle\Document\MultilangStaticContent'
-    image:
-        model_class: Symfony\Cmf\Bundle\MediaBundle\Doctrine\Phpcr\Image
-        controller_class: Symfony\Cmf\Bundle\CreateBundle\Controller\ImageController
+    image_controller_class: Symfony\Cmf\Bundle\CreateBundle\Controller\ImageController
 
 cmf_content:
     multilang:
